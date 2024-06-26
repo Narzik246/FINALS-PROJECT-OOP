@@ -1,0 +1,15 @@
+﻿<Window x:Class="FINALS_PROJECT_OOP.Check"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINALS_PROJECT_OOP"
+        mc:Ignorable="d"
+        Title="Check" Height="450" Width="800">
+    <Grid>
+        <Button Content="Back" HorizontalAlignment="Left" Height="51" Margin="122,265,0,0" VerticalAlignment="Top" Width="129" Click="Back"/>
+        <Button Content="Return to Log In" HorizontalAlignment="Left" Height="51" Margin="400,265,0,0" VerticalAlignment="Top" Width="214" Click="LogIN"/>
+        <Label x:Name="Amount" Content="" HorizontalAlignment="Left" Margin="320,155,0,0" VerticalAlignment="Top" Height="62" Width="114"/>
+
+    </Grid>
+</Window>

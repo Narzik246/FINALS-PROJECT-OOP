@@ -1,0 +1,16 @@
+﻿<Window x:Class="FINALS_PROJECT_OOP.Choices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINALS_PROJECT_OOP"
+        mc:Ignorable="d"
+        Title="Choices" Height="450" Width="800">
+    <Grid>
+        <Button Content="Check" HorizontalAlignment="Left" Height="58" Margin="153,79,0,0" VerticalAlignment="Top" Width="147" Click="Check"/>
+        <Button Content="Deposit" HorizontalAlignment="Left" Height="58" Margin="351,217,0,0" VerticalAlignment="Top" Width="147" Click="Deposit"/>
+        <Button Content="Withdraw" HorizontalAlignment="Left" Height="58" Margin="529,103,0,0" VerticalAlignment="Top" Width="147" Click="Withdraw"/>
+        <Button Content="Return" HorizontalAlignment="Left" Height="42" Margin="153,295,0,0" VerticalAlignment="Top" Width="166" Click="Back"/>
+
+    </Grid>
+</Window>

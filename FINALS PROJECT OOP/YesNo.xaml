@@ -1,0 +1,15 @@
+﻿<Window x:Class="FINALS_PROJECT_OOP.YesNo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FINALS_PROJECT_OOP"
+        mc:Ignorable="d"
+        Title="YesNo" Height="450" Width="800">
+    <Grid>
+        <Label Content="Do you want to keep on going?&#xD;&#xA;" HorizontalAlignment="Left" Height="74" Margin="152,52,0,0" VerticalAlignment="Top" Width="299"/>
+        <Button Content="Yes" HorizontalAlignment="Left" Height="73" Margin="100,171,0,0" VerticalAlignment="Top" Width="202" Click="Yes"/>
+        <Button Content="No" HorizontalAlignment="Left" Height="73" Margin="400,171,0,0" VerticalAlignment="Top" Width="216" Click="No"/>
+
+    </Grid>
+</Window>
